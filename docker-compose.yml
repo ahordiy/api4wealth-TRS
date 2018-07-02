@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  trs:
+    image: andriko/account
+    build:
+      context: .
+      dockerfile: TRS/Dockerfile
+    
